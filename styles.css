@@ -1,0 +1,36 @@
+body {
+  padding-top: 54px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.container{}
+.dropdown a:hover{text-decoration: none;}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.navbar-nav{margin-bottom:0px}
+.dropdown-menu{margin-top:0px}
+.progress-bar, .progress{height:50px;font-size:15px}
+.progress-bar.bg-darkgreen{background-color:#092104}
+.progress-bar.bg-darkblue{background-color:#011133}
+.progress-bar.bg-darkred{background-color:#3d0000}
+.progress-bar.bg-darkviolet{background-color:#120626}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+.panel-title, .panel-title a{font-size:18px;color:blue}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
